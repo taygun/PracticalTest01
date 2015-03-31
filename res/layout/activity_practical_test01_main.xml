@@ -20,8 +20,9 @@
       android:layout_width="0dp"
       android:layout_height="wrap_content"
       android:layout_weight="1"
-      android:enabled="false"
-      android:inputType="phone|textEmailAddress"
+      android:enabled="true"
+      android:inputType="textEmailAddress"
+      android:saveEnabled="false"
       android:gravity="center" />
 
     <CheckBox
@@ -29,6 +30,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:saveEnabled="false"
         android:text="" />
     
   </LinearLayout>
@@ -39,19 +41,21 @@
         android:orientation="horizontal" >
     
         <EditText
-            android:id="@+id/up_edit_text2"
+            android:id="@+id/down_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:enabled="false"
+            android:enabled="true"
             android:gravity="center"
-            android:inputType="phone|textEmailAddress" />
+            android:saveEnabled="false"
+            android:inputType="textEmailAddress" />
 
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:saveEnabled="false"
         android:text="" />
 
     </LinearLayout>
